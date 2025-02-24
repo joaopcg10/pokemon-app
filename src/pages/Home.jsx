@@ -19,6 +19,8 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setTypes(data.results))
       .catch((error) => console.error("Error fetching Pokémon types:", error));
+
+    localStorage.setItem("currentPage", 0);
   }, []);
 
   return (
