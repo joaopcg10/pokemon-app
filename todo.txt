@@ -1,0 +1,2 @@
+Remover useCallback
+Mensagem de quando não há pokemons
