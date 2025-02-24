@@ -42,7 +42,7 @@ npm run build
 
 This will generate static files inside the `dist/` folder.
 
-## Deployment
+## Deployment to Github Pages
 
 1. Run:
    ```sh
